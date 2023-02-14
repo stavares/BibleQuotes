@@ -1,0 +1,12 @@
+<template unencoded="false">
+  <roots>
+    <root index="0" path="" />
+    <root index="1" path="app" />
+    <root index="2" path="app/build/generated/ap_generated_sources/debug/out" />
+    <root index="3" path="app/build/generated/source/buildConfig/debug" />
+    <root index="4" path="app/build/generated/res/resValues/debug" />
+    <root index="5" path="app/src/main" />
+    <root index="6" path="app/src/test" />
+    <root index="7" path="app/src/androidTest" />
+  </roots>
+</template>
