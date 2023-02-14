@@ -1,5 +1,6 @@
 package org.sctgamingllc.cryptocurrencyapp.di
 
+import dagger.Module
 import org.sctgamingllc.cryptocurrencyapp.common.Constants
 import org.sctgamingllc.cryptocurrencyapp.data.remote.CoinPaprikaApi
 import org.sctgamingllc.cryptocurrencyapp.data.repository.CoinRepositoryImpl

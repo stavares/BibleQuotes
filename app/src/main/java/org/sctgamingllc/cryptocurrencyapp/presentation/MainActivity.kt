@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 
@@ -13,7 +14,8 @@ import org.sctgamingllc.cryptocurrencyapp.presentation.coin_list.CoinListScreen
 
 import org.sctgamingllc.cryptocurrencyapp.presentation.ui.theme.CryptocurrencyAppYTTheme
 import dagger.hilt.android.AndroidEntryPoint
-import sun.java2d.Surface
+
+//import sun.java2d.Surface
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {

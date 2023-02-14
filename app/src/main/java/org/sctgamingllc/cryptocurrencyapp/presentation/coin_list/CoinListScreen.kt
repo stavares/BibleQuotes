@@ -1,5 +1,6 @@
 package org.sctgamingllc.cryptocurrencyapp.presentation.coin_list
 
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -17,7 +18,6 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import org.sctgamingllc.cryptocurrencyapp.presentation.Screen
 import org.sctgamingllc.cryptocurrencyapp.presentation.coin_list.componets.CoinListItem
-import javax.swing.Box
 
 @Composable
 fun CoinListScreen(

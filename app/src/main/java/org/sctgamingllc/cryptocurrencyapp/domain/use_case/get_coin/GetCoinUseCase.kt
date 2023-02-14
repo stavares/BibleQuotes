@@ -4,7 +4,6 @@ import org.sctgamingllc.cryptocurrencyapp.common.Resource
 import org.sctgamingllc.cryptocurrencyapp.data.remote.dto.toCoinDetail
 import org.sctgamingllc.cryptocurrencyapp.domain.model.CoinDetail
 import org.sctgamingllc.cryptocurrencyapp.domain.repository.CoinRepository
-import jdk.jfr.internal.OldObjectSample.emit
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException
