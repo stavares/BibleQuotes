@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20e7392a-840b-4077-8377-ba699f31ffcb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/CoinApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/CoinApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/data/remote/dto/CoinDetailDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/data/remote/dto/CoinDetailDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/data/remote/dto/LinksExtended.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/data/remote/dto/LinksExtended.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/data/remote/dto/TeamMember.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/data/remote/dto/TeamMember.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/di/AppModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/domain/use_case/get_coin/GetCoinUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/domain/use_case/get_coin/GetCoinUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/domain/use_case/get_coins/GetCoinsUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/domain/use_case/get_coins/GetCoinsUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/domain/model/CoinDetail.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/domain/model/CoinDetail.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/coin_list/CoinListScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/coin_list/CoinListScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/coin_list/componets/CoinListItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/coin_list/componets/CoinListItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/ui/theme/Color.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/ui/theme/Theme.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/coin_list/CoinListState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/cryptocurrencyapp/presentation/coin_list/CoinListState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/sctgamingllc/ui/theme/Theme.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +41,19 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="BasicAndroidComposeApp" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -78,15 +85,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.42232683",
-    "settings.editor.selected.configurable": "project.kotlinCompiler",
+    "project.structure.side.proportion": "0.3444219",
+    "settings.editor.selected.configurable": "android.project.structure",
     "settings.editor.splitter.proportion": "0.34383687",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RunManager">
@@ -102,7 +111,7 @@
       <option name="CLEAR_APP_STORAGE" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
+      <option name="MODE" value="specific_activity" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
@@ -118,7 +127,7 @@
         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
+      <option name="ACTIVITY_CLASS" value="org.sctgamingllc.cryptocurrencyapp.presentation.MainActivity" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
@@ -146,6 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676373986113</updated>
       <workItem from="1676373987211" duration="8417000" />
+      <workItem from="1676460041019" duration="5302000" />
     </task>
     <servers />
   </component>

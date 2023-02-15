@@ -15,8 +15,9 @@ data class CoinDetailDto(
     val hardwareWallet: Boolean,
     @SerializedName("hash_algorithm")
     val hashAlgorithm: String,
-    @SerializedName("id")
-    val coinId: String,
+//    @SerializedName("id")
+//    val coinId: String,
+    val id: String,
     @SerializedName("is_active")
     val isActive: Boolean,
     @SerializedName("is_new")
@@ -47,7 +48,7 @@ data class CoinDetailDto(
 
 fun CoinDetailDto.toCoinDetail(): CoinDetail {
     return CoinDetail(
-    coinId = coinId,
+    coinId = id,
     name = name,
     description = description,
     symbol = symbol,

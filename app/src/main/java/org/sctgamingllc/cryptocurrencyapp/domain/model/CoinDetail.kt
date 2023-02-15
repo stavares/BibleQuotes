@@ -2,7 +2,7 @@ package org.sctgamingllc.cryptocurrencyapp.domain.model
 
 import org.sctgamingllc.cryptocurrencyapp.data.remote.dto.TeamMember
 
-class CoinDetail(
+data class CoinDetail(
     val coinId: String,
     val name: String,
     val description: String,

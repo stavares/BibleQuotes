@@ -14,6 +14,7 @@ import org.sctgamingllc.cryptocurrencyapp.presentation.coin_list.CoinListScreen
 
 import org.sctgamingllc.cryptocurrencyapp.presentation.ui.theme.CryptocurrencyAppYTTheme
 import dagger.hilt.android.AndroidEntryPoint
+import dagger.hilt.android.HiltAndroidApp
 
 //import sun.java2d.Surface
 
