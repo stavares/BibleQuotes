@@ -12,9 +12,9 @@ import androidx.navigation.compose.rememberNavController
 import org.sctgamingllc.cryptocurrencyapp.presentation.coin_detail.CoinDetailScreen
 import org.sctgamingllc.cryptocurrencyapp.presentation.coin_list.CoinListScreen
 
-import org.sctgamingllc.cryptocurrencyapp.presentation.ui.theme.CryptocurrencyAppYTTheme
 import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.HiltAndroidApp
+import org.sctgamingllc.cryptocurrencyapp.presentation.ui.theme.CryptocurrencyAppTheme
 
 //import sun.java2d.Surface
 
@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            CryptocurrencyAppYTTheme {
+            CryptocurrencyAppTheme {
                 Surface(color = MaterialTheme.colors.background) {
                     val navController = rememberNavController()
                     NavHost(
