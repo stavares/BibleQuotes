@@ -30,7 +30,4 @@ object AppModule {
     fun providesCoinRepository(api: CoinPaprikaApi): CoinRepository {
         return CoinRepositoryImpl(api)
     }
-
-
-
 }
