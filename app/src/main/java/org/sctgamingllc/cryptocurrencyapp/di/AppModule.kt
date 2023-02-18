@@ -1,16 +1,16 @@
 package org.sctgamingllc.cryptocurrencyapp.di
 
 import dagger.Module
+import dagger.Provides
+import retrofit2.Retrofit
+import dagger.hilt.InstallIn
+import javax.inject.Singleton
+import dagger.hilt.components.SingletonComponent
+import retrofit2.converter.gson.GsonConverterFactory
 import org.sctgamingllc.cryptocurrencyapp.common.Constants
 import org.sctgamingllc.cryptocurrencyapp.data.remote.CoinPaprikaApi
-import org.sctgamingllc.cryptocurrencyapp.data.repository.CoinRepositoryImpl
 import org.sctgamingllc.cryptocurrencyapp.domain.repository.CoinRepository
-import dagger.Provides
-import dagger.hilt.InstallIn
-import dagger.hilt.components.SingletonComponent
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-import javax.inject.Singleton
+import org.sctgamingllc.cryptocurrencyapp.data.repository.CoinRepositoryImpl
 
 @Module
 @InstallIn(SingletonComponent::class)

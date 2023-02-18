@@ -1,12 +1,21 @@
 <template unencoded="false">
   <roots>
-    <root index="0" path="" />
-    <root index="1" path="app" />
-    <root index="2" path="app/build/generated/ap_generated_sources/debug/out" />
-    <root index="3" path="app/build/generated/source/buildConfig/debug" />
+    <root index="0" path="app/build/generated/source/kapt/debug" />
+    <root index="1" path="app/build/generated/ap_generated_sources/debug/out" />
+    <root index="2" path="app/build/generated/source/buildConfig/debug" />
+    <root index="3" path="app/build/generated/source/kaptKotlin/debug" />
     <root index="4" path="app/build/generated/res/resValues/debug" />
     <root index="5" path="app/src/main" />
-    <root index="6" path="app/src/test" />
-    <root index="7" path="app/src/androidTest" />
+    <root index="6" path="" />
+    <root index="7" path="app/build/generated/source/kapt/debugUnitTest" />
+    <root index="8" path="app/build/generated/source/kaptKotlin/debugUnitTest" />
+    <root index="9" path="app/src/test" />
+    <root index="10" path="app" />
+    <root index="11" path="app/build/generated/source/kapt/debugAndroidTest" />
+    <root index="12" path="app/build/generated/ap_generated_sources/debugAndroidTest/out" />
+    <root index="13" path="app/build/generated/source/buildConfig/androidTest/debug" />
+    <root index="14" path="app/build/generated/source/kaptKotlin/debugAndroidTest" />
+    <root index="15" path="app/build/generated/res/resValues/androidTest/debug" />
+    <root index="16" path="app/src/androidTest" />
   </roots>
 </template>
