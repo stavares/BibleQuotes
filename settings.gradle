@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "BasicAndroidComposeDaggerApp"
+rootProject.name = "BibleQuotes"
 include ':app'
