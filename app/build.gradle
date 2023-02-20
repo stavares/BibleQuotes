@@ -20,11 +20,11 @@ android {
         jvmTarget = "11"
     }
 
-    namespace 'org.sctgamingllc.cryptocurrencyapp'
+    namespace 'org.sctgamingllc.biblequotes'
     compileSdk 33
 
     defaultConfig {
-        applicationId 'org.sctgamingllc.cryptocurrencyapp'
+        applicationId 'org.sctgamingllc.biblequotes'
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -35,7 +35,7 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles(getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro')
         }
     }
     compileOptions {
